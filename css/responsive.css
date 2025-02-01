@@ -122,6 +122,15 @@
         font-size: 13px;
     }
 
+    .team-photo .team-overlay a {
+        width: 35px;
+        height: 35px;
+        line-height: 0px;
+        display: flex;
+        margin: 2px 0px;
+        justify-content: center;
+        align-items: center;
+    }
 
     #testimonial .test-head-img {
         left: 33.8%;
@@ -154,7 +163,7 @@
         line-height: 22px;
     }
 
-    footer .footer-logo{
+    footer .footer-logo {
         text-align: center;
     }
 
@@ -170,11 +179,11 @@
         padding: 30px 0 0px;
     }
 
-    footer .footer-heading{
+    footer .footer-heading {
         text-align: center;
     }
 
-    .footer-contact-main{
+    .footer-contact-main {
         justify-content: center;
     }
 
@@ -187,7 +196,7 @@
         margin: 10px 0;
     }
 
-    footer .footer-link-main{
+    footer .footer-link-main {
         justify-content: center;
     }
 
@@ -205,7 +214,7 @@
 
 /* Ranning Smartphones */
 @media (min-width: 375px) and (max-width: 415px) {
-    
+
 
     .heading img {
         left: 39.2%;
@@ -233,7 +242,7 @@
         left: 39.5%;
     }
 
-    .ser-heading{
+    .ser-heading {
         margin-bottom: 30px;
     }
 
@@ -259,19 +268,34 @@
         margin-bottom: 20px;
     }
 
+    .team-photo .team-overlay a {
+        margin: 2px 20px;
+    }
+
     #testimonial .test-head-img {
         left: 37%;
     }
-    
+
 
 
 }
 
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991px) {}
+@media (min-width: 768px) and (max-width: 991px) {
+    .team-photo .team-overlay a {
+        width: 36px;
+        height: 36px;
+        line-height: 34px;
+        margin: 2px 0px;
+    }
+}
 
 /* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199px) {}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .team-photo .team-overlay a {
+        margin: 4px 20px;
+    }
+}
 
 /* // X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1399px) {}
