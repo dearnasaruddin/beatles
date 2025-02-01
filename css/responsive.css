@@ -163,7 +163,7 @@
         line-height: 22px;
     }
 
-    footer .footer-logo {
+    footer .footer-logo{
         text-align: center;
     }
 
@@ -179,11 +179,11 @@
         padding: 30px 0 0px;
     }
 
-    footer .footer-heading {
+    footer .footer-heading{
         text-align: center;
     }
 
-    .footer-contact-main {
+    .footer-contact-main{
         justify-content: center;
     }
 
@@ -196,7 +196,7 @@
         margin: 10px 0;
     }
 
-    footer .footer-link-main {
+    footer .footer-link-main{
         justify-content: center;
     }
 
@@ -214,7 +214,7 @@
 
 /* Ranning Smartphones */
 @media (min-width: 375px) and (max-width: 415px) {
-
+    
 
     .heading img {
         left: 39.2%;
@@ -242,7 +242,7 @@
         left: 39.5%;
     }
 
-    .ser-heading {
+    .ser-heading{
         margin-bottom: 30px;
     }
 
@@ -267,15 +267,13 @@
     .team-main {
         margin-bottom: 20px;
     }
-
-    .team-photo .team-overlay a {
-        margin: 2px 20px;
-    }
-
+.team-photo .team-overlay a {
+    margin: 2px 20px;
+}
     #testimonial .test-head-img {
         left: 37%;
     }
-
+    
 
 
 }
